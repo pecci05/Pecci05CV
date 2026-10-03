@@ -1,0 +1,183 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <style>
+        .marquee-content {
+            display: flex;
+            animation: marquee 10s linear infinite;
+        }
+
+        @keyframes marquee {
+            0% {
+                transform: translateX(100%);
+            }
+
+            100% {
+                transform: translateX(-100%);
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header class="border">
+        <nav class="navbar fw-bolder" style="background-color: #334AE0;">
+            <nav class=" navbar-expand-lg bg-body-tertiary">
+                <div class="container-fluid" style="background-color: #334AE0;">
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <p class="fs-3" style="margin-right: 100px; color: white;" m-5>Curriculum Vitae</p>
+                        <a class="navbar-brand fs-4 m-3" style="color: white" href="#SobreMi">Sobre mí</a>
+                        <a class="navbar-brand fs-4 m-3" style="color: white" href="#Estudios">Estudios</a>
+                        <a class="navbar-brand fs-4 m-3" style="color: white" href="#Experiencia">Experiencia</a>
+                        <a class="navbar-brand fs-4 m-3" style="color: white" href="#Contacto">Contacto</a>
+
+
+                    </div>
+                </div>
+            </nav>
+        </nav>
+    </header>
+    <div class="container mw-100" style="background-color: #99A5F0; ">
+        <div class="row align-items-start">
+            <img src="./FOTO_CV.jpeg" class=" w-25 img-thumbnail p-0 m-5">
+
+            <div class="col">
+                <p class=" fs-1 fw-bolder" id="SobreMi" style=" margin: 30px; margin-left: 15px;">Alejandro Carrillo
+                    Pecci</p>
+                <p class="m-3 fs-5 fst-italic"> Hola, encantado de conocerte!</p>
+                <p class="m-3 fs-4" style="position: relative;"> Soy estudiante de Desarrollo de Aplicaciones
+                    Web y tengo 20 años. Me gustaría ser contratado por una empresa en la que pueda crecer laboramente y
+                    que se dedique a las innovaciones en la tecnología. me gusta mucho programar, aprender cosas nuevas
+                    y ser autodidacta. </p>
+                <p class=" fs-1 fw-bolder" style=" margin: 60px; margin-left: 15px; margin-bottom: 10px; color: white;">
+                    Tecnologías:
+                </p>
+
+                <div class="marquee-container overflow-hidden" style="background-color: #99A5F0;">
+                    <div class="marquee-content d-flex align-items-center">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" fill="currentColor"
+                            class="bi bi-typescript m-5" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd"
+                                d="M14 0a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2zm-1.139 7.488q-.585 0-1.006.244a1.67 1.67 0 0 0-.634.674 2.1 2.1 0 0 0-.225.996q0 .753.293 1.182.303.42.967.732l.469.215q.438.186.625.43.185.244.185.635 0 .478-.166.703-.156.224-.527.224-.361.001-.547-.244-.186-.243-.205-.752h-1.162q.02.996.498 1.524.479.527 1.386.527.909 0 1.417-.518.507-.517.507-1.484 0-.81-.332-1.289t-1.045-.79l-.449-.196q-.39-.166-.556-.381-.166-.214-.166-.576 0-.4.165-.596.177-.195.508-.195.361 0 .508.234.156.234.176.703h1.123q-.03-.976-.498-1.484-.47-.518-1.309-.518M7 7.596v1.113h1.3V14.5h1.221V8.709h1.289V7.596z" />
+                        </svg>
+
+
+                        <svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" fill="currentColor"
+                            class="bi bi-javascript m-5" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd"
+                                d="M14 0a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2zM9.053 7.596v3.127l-.007 1.752q0 .498-.186.752t-.556.263q-.342 0-.528-.234-.185-.234-.185-.684v-.175H6.37v.185q0 .665.253 1.113.255.45.703.674.44.225 1.016.225.88 0 1.406-.498.527-.498.527-1.485l.007-1.752V7.596zm3.808-.108q-.585 0-1.006.244a1.67 1.67 0 0 0-.634.674 2.1 2.1 0 0 0-.225.996q0 .753.293 1.182.303.42.967.732l.469.215q.438.186.625.43.185.244.185.635 0 .478-.166.703-.156.224-.527.224-.361.001-.547-.244-.186-.243-.205-.752h-1.162q.02.996.498 1.524.479.527 1.386.527.909 0 1.417-.518.507-.517.507-1.484 0-.81-.332-1.289t-1.045-.79l-.449-.196q-.39-.166-.556-.381-.166-.214-.166-.576 0-.4.165-.596.177-.195.508-.195.361 0 .508.234.156.234.176.703h1.123q-.03-.976-.498-1.484-.47-.518-1.309-.518" />
+                        </svg>
+
+                        <svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" fill="currentColor"
+                            class="bi bi-bootstrap-fill m-5" viewBox="0 0 16 16">
+                            <path
+                                d="M6.375 7.125V4.658h1.78c.973 0 1.542.457 1.542 1.237 0 .802-.604 1.23-1.764 1.23zm0 3.762h1.898c1.184 0 1.81-.48 1.81-1.377 0-.885-.65-1.348-1.886-1.348H6.375z" />
+                            <path
+                                d="M4.002 0a4 4 0 0 0-4 4v8a4 4 0 0 0 4 4h8a4 4 0 0 0 4-4V4a4 4 0 0 0-4-4zm1.06 12V3.545h3.399c1.587 0 2.543.809 2.543 2.11 0 .884-.65 1.675-1.483 1.816v.1c1.143.117 1.904.931 1.904 2.033 0 1.488-1.084 2.396-2.888 2.396z" />
+                        </svg>
+
+
+                        <svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" fill="currentColor"
+                            class="bi bi-database m-5" viewBox="0 0 16 16">
+                            <path
+                                d="M4.318 2.687C5.234 2.271 6.536 2 8 2s2.766.27 3.682.687C12.644 3.125 13 3.627 13 4c0 .374-.356.875-1.318 1.313C10.766 5.729 9.464 6 8 6s-2.766-.27-3.682-.687C3.356 4.875 3 4.373 3 4c0-.374.356-.875 1.318-1.313M13 5.698V7c0 .374-.356.875-1.318 1.313C10.766 8.729 9.464 9 8 9s-2.766-.27-3.682-.687C3.356 7.875 3 7.373 3 7V5.698c.271.202.58.378.904.525C4.978 6.711 6.427 7 8 7s3.022-.289 4.096-.777A5 5 0 0 0 13 5.698M14 4c0-1.007-.875-1.755-1.904-2.223C11.022 1.289 9.573 1 8 1s-3.022.289-4.096.777C2.875 2.245 2 2.993 2 4v9c0 1.007.875 1.755 1.904 2.223C4.978 15.71 6.427 16 8 16s3.022-.289 4.096-.777C13.125 14.755 14 14.007 14 13zm-1 4.698V10c0 .374-.356.875-1.318 1.313C10.766 11.729 9.464 12 8 12s-2.766-.27-3.682-.687C3.356 10.875 3 10.373 3 10V8.698c.271.202.58.378.904.525C4.978 9.71 6.427 10 8 10s3.022-.289 4.096-.777A5 5 0 0 0 13 8.698m0 3V13c0 .374-.356.875-1.318 1.313C10.766 14.729 9.464 15 8 15s-2.766-.27-3.682-.687C3.356 13.875 3 13.373 3 13v-1.302c.271.202.58.378.904.525C4.978 12.71 6.427 13 8 13s3.022-.289 4.096-.777c.324-.147.633-.323.904-.525" />
+                        </svg>
+
+                        <svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" fill="currentColor"
+                            class="bi bi-filetype-html m-5" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd"
+                                d="M14 4.5V11h-1V4.5h-2A1.5 1.5 0 0 1 9.5 3V1H4a1 1 0 0 0-1 1v9H2V2a2 2 0 0 1 2-2h5.5zm-9.736 7.35v3.999h-.791v-1.714H1.79v1.714H1V11.85h.791v1.626h1.682V11.85h.79Zm2.251.662v3.337h-.794v-3.337H4.588v-.662h3.064v.662zm2.176 3.337v-2.66h.038l.952 2.159h.516l.946-2.16h.038v2.661h.715V11.85h-.8l-1.14 2.596H9.93L8.79 11.85h-.805v3.999zm4.71-.674h1.696v.674H12.61V11.85h.79v3.325Z" />
+                        </svg>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container mw-100" style="background-color: #99A5F0;">
+        <p id="Estudios" class="fw-bolder fs-2 w-75 rounded-pill"
+            style="background-color: #334AE0; padding: 10px; padding-left: 75px;margin: auto; color: white;">Estudios
+        </p>
+        <ul class="w-75 m-auto list-group list-group-flush" style="padding-top: 50px;">
+            <li class="list-group-item fw-bolder" style="background-color: #334AE0; color: white;">TÉCNICO MICROSISTEMAS
+                Y REDES LOCALES</li>
+            <li class="list-group-item">Instalar y configurar software básico y de aplicación, redes locales cableadas,
+                inalámbricas o mixtas y conectadas a redes públicas.</li>
+            <li class="list-group-item">Instalar, configurar y mantener servicios multiusuario, aplicaciones y
+                dispositivos compartidos en un entorno de red local.</li>
+            <li class="list-group-item">Montar y configurar ordenadores y periféricos. </li>
+            <li class="list-group-item">Determinar la logística asociada a las operaciones de instalación, configuración
+                y mantenimiento de sistemas microinformáticos.</li>
+            <li class="list-group-item">Diagnosticar disfunciones en sistemas microinformáticos y redes mediante pruebas
+                funcionales.</li>
+        </ul>
+
+        <p id="Experiencia" class="fw-bolder fs-2 w-75 rounded-pill"
+            style="background-color: #334AE0; padding: 10px; padding-left: 75px;margin: auto; margin-top: 140px; color: white;">
+            Formación</p>
+        <ul class="w-75 m-auto list-group list-group-flush" style="padding-top: 50px;">
+            <li class="list-group-item fw-bolder" style="background-color: #334AE0; color: white;">INFORMÁTICO DE
+                PRÁCTICAS</li>
+            <li class="list-group-item" style="font-size: 12px;">Ayuntamiento de Torredonjimeno (Enero 2024/Febrero 2025
+                - Junio 2025)</li>
+            <li class="list-group-item">Resoluciones de problemas informáticos</li>
+            <li class="list-group-item">Administración de servidores </li>
+            <li class="list-group-item">Gestión de redes</li>
+            <li class="list-group-item">Actualización de equipos (Software y Hardware)</li>
+            <li class="list-group-item">Desarrollo de un programa gestor para la Policía Local</li>
+        </ul>
+
+        <ul class="w-75 m-auto list-group list-group-flush" style="padding-top: 50px;">
+            <li class="list-group-item fw-bolder" style="background-color: #334AE0; color: white;">DESARROLLADOR DE
+                PRÁCTICAS</li>
+            <li class="list-group-item" style="font-size: 12px;">Petroprix (Marzo 2026) </li>
+            <li class="list-group-item">Desarrollo de una aplicación para gestionar las gasolineras y clientes de la
+                empresa</li>
+
+        </ul>
+
+
+
+        <div id="Contacto" class="container mw-100" style=" background-color: #334AE0; color: white;">
+            <p style="margin-top: 100px;" class="fw-bolder fs-3">Contacto</p>
+            <div class="row fs-5" style="padding-top: 15px;">
+                <div class="col">
+                    <p class="fw-bolder">Teléfono</p>
+                    <p class="fs-6">+34 623 391 057</p>
+                </div>
+                <div class="col">
+                    <p class="fw-bolder">Correo Electrónico</p>
+                    <p class="fs-6">peccicarrilloalejandro@gmail.com</p>
+                </div>
+                <div class="col">
+                    <p class="fw-bolder">LinkedIn</p>
+                    <a class="fs-6 navbar-brand" href="www.linkedin.com/in/alejandro-carrillo-pecci-877928356">Alejandro Carrillo Pecci</a>
+                </div>
+                <div class="col">
+                    <p class="fw-bolder">GitHub</p>
+                    <a class="navbar-brand" href="https://github.com/pecci05">pecci05</a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
